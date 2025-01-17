@@ -13,6 +13,6 @@ function validateCode() {
         codeError.innerHTML = 'INCORRECT invitation code';
         return false;
     }
-    codeError.innerHTML = '';
+    codeError.innerHTML = 'Invitation Code Valid';
     return true
 }
